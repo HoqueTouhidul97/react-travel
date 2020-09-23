@@ -1,0 +1,22 @@
+.room-container img {
+    width:200px;
+    height: 150px;
+    margin-right: 5px;
+
+}
+.room-details {
+    
+}
+.room-container {
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 6px 6px 5px -1px rgba(0,0,0,0.27);
+}
+.hotel-wrapper {
+    margin-right:30px;
+    margin-left:30px;
+
+    border-right: 1px solid lightgrey;
+}

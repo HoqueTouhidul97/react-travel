@@ -1,0 +1,8 @@
+var locationInfo = [
+    {id:1, name:"Cox's bazar",description:"Cox's Bazar is a city, fishing port, tourism centre and district headquarters in southeastern Bangladesh. It is famous mostly for its long natural sandy beach, and it is infamous for the largest refugee camp in the world. It is located 150 km (93 mi) south of the divisional headquarter city of Chittagong. Cox's Bazar is also known by the name Panowa,", img:'https://i.postimg.cc/pTFTg8Pq/Sajek.png'},
+
+    {id:2, name:"Sreemangol",description:"It is famous for tea garden. Rain all time occurs here. Nature has adorned sreemangal with green tress. Its natural scenery is very charming. It soothes one’s eyes. Birds are twittering always here. The first tea garden in Bangladesh which names “Malni chho ra tea garden” is here. Only one tea research institute in Bangladesh which name is BTRI (Bangladesh Tea Research Institute) is situated in Sreemanga ...",img:'https://i.postimg.cc/bvMrCLfZ/Sreemongol.png'},
+
+    {id:3, name:"Sundorban",description:"he name Sundarbans is thought to be derived from sundri or sundari (Heritiera fomes), the name of the large mangrove trees that are most plentiful in the area. The forestland transitions into a low-lying mangrove swamp approaching the coast, which itself consists of sand dunes and mud flats. Mangrove forests constitute about two-fifths of the Sundarbans region’s overall surface area, with water covering roughly half of that area ...",img:'https://i.postimg.cc/Hk6V5dS4/sundorbon.png'}
+]
+export default locationInfo;

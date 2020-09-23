@@ -1,0 +1,7 @@
+.navbar-container img {
+    height: 56px;
+    width:120px;
+}
+.navbar-container {
+    border-bottom : 1px solid lightgray;
+}

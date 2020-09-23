@@ -1,0 +1,21 @@
+.form-container form {
+    background-color: #fff;
+    width:410px;
+    padding:20px;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+.form-container input[type=submit]{
+    background-color: orange;
+    padding:10px;
+    border-radius: 5px;
+    width: 374px;
+    text-align: center;
+    color:#fff;
+}
+.date-container {
+    display: flex;
+}
+.to {
+    margin-left:15px;
+}
