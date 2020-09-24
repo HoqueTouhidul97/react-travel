@@ -12,7 +12,6 @@ firebase.initializeApp(firebaseConfig);
     const {loggedUser} = useContext(userContext);
     const[loggedInUser,setLoggedInUser] = loggedUser;
     const [newUser, setNewUser] = useState(false);
-    const fbProvider = new firebase.auth.FacebookAuthProvider();
     let history = useHistory();
     let location = useLocation();
 
