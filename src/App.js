@@ -17,15 +17,8 @@ import Room from './Components/Room/Room';
 export const userContext = createContext();
 
 function App() {
-  const [loggedInUser,setLoggedInUser] = useState({
-    name:'',
-    password:'',
-    email:'',
-    error:'',
-    success:true,
-    formValid:true
-  });
-  const [locationInfo,setLocationInfo] = useState(0)
+  const [loggedInUser,setLoggedInUser] = useState({});
+  const [locationInfo,setLocationInfo] = useState({});
   return (
     <userContext.Provider value ={{loggedUser:[loggedInUser,setLoggedInUser],location:[locationInfo,setLocationInfo]}}>
       <Router>

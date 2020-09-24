@@ -5,7 +5,7 @@ import './Login.css';
 import * as firebase from "firebase/app";
 import "firebase/auth";
 import { userContext } from '../../App';
-import { Link, useHistory, useLocation } from 'react-router-dom';
+import { useHistory, useLocation } from 'react-router-dom';
 firebase.initializeApp(firebaseConfig);
 
     const Login = () => {
@@ -151,25 +151,26 @@ firebase.initializeApp(firebaseConfig);
                                 <label className="form-check-label" for="">Remember me</label>
                             </div>
                             <div className="form ">
-                                <a href="/">Forget  password</a>
+                                <a href="/">Forget  password?</a>
                             </div>
                         </div>
                         <button type="submit" className="btn btn-warning  mt-3 d-block w-75 mx-auto ">Login</button>
                     </form>
-                    {loggedInUser.success==false && <p className="text-danger">{loggedInUser.error}</p>}
-                    {loggedInUser.formValid == false && <p className="text-danger">Email or password is not valid , please check again..</p>}
+                    {loggedInUser.success===false && <p className="text-danger">{loggedInUser.error}</p>}
+                    {loggedInUser.formValid ===false && <p className="text-danger">Email or password is not valid , please check again...</p>}
                     <div className="d-flex justify-content-center mt-3" >
                         <p>do not have account  ? </p>
+                        <br/>
                         <button style={{ marginLeft: '10px', borderRadius: '5px' }} onClick={() => setNewUser(!newUser)}>Create account</button>
                     </div>
                 </div>
-                <div className="or-line d-block  mx-auto  text-center" > <span>---------</span> Or <span>---------</span>  </div>
+                <div className="or-line d-block  mx-auto  text-center" >  Or  </div>
                 <button onClick={handleFbLogIn} className="text-left d-flex sign-btn mx-auto ">
-                    <img className="m-1" src="https://i.imgur.com/hPkbIgr.png" alt="" />
+                    <img className="m-1" src="https://i.ibb.co/4svGWSH/fb.png" alt="" />
                     <h6 className="m-2 mx-5" >Continue with facebook </h6>
                 </button>
                 <button onClick={handleGoogleSignIn} className="text-left d-flex sign-btn mx-auto ">
-                    <img className="m-1" src="https://i.imgur.com/aneJZWX.png" alt="" />
+                    <img className="m-1" src="https://i.ibb.co/0Jmhnq8/google.png" alt="" />
                     <h6 className="m-2 mx-5" >Continue with google </h6>
                 </button>
             </div>

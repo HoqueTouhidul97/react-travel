@@ -14,8 +14,8 @@ const Home = () => {
                 <div className="row">
                     <div className="col-md-6 place-detail">
                         <h1>Cox's Bazar</h1>
-                        <p>Cox's Bazar is a city, fishing port, tourism centre and district headquarters in southeastern Bangladesh. It is famous mostly for its long natural sandy beach, and it ...</p>
-                        <Link to="/booking/1"><Button variant="warning">Booking &rarr;</Button></Link>
+                        <p>Cox's Bazar has the world's largest unbroken sea beach which stretches more than 120 km. The entire beach is a stretch of golden sandy sea beach which is reachable by motorbike. The beach gets busy from November to early March...</p>
+                        <Link to="/booking/1"><Button variant="warning">Booking -> </Button></Link>
                     </div>
                     <div className="col-md-6">
                         <Place></Place>
