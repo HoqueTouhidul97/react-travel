@@ -10,7 +10,7 @@ const Room = () => {
     const roomData = hotelData;
     const {location} = useContext(userContext);
     const[locationInfo,setLocationInfo] = location;
-    console.log("this is loction id", locationInfo);
+    
     return (
         <div className="hotel-wrapper">
             <TopBar></TopBar>
