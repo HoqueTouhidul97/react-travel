@@ -36,6 +36,7 @@ firebase.initializeApp(firebaseConfig);
 
     }
     const handleFbLogIn = () => {
+        const fbProvider = new firebase.auth.FacebookAuthProvider();
         firebase.auth().signInWithPopup(fbProvider).then(function (result) {
             const { displayName, email } = result.user;
             const newUser = { name: displayName, email };
